@@ -1,0 +1,61 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.mySlider {
+  position: relative;
+
+  width: 290px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 350px) {
+    width: 320px;
+  }
+
+  @media screen and (min-width: $tablet2) {
+    width: 700px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 1000px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 1205px;
+  }
+}
+
+.inner {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+
+  min-height: 242px;
+  padding: 20px 0;
+
+  background-color: $mainBgnColor;
+  box-shadow: $boxShadow;
+  border-radius: 26px;
+
+  @include font($fontSize: 14px, $lineHeight: 1.5);
+}
+
+.img {
+  margin: 0 auto;
+}
+
+div[class='slick-track'] {
+  display: flex;
+  gap: 30px;
+
+  padding: 30px 0;
+
+  @media screen and (min-width: $tablet) {
+    gap: 30px;
+    padding: 40px 0;
+  }
+
+  @media screen and (min-width: $desktop) {
+    gap: 52px;
+    padding: 50px 0;
+  }
+}

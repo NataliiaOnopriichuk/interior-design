@@ -1,0 +1,17 @@
+@import '../../styles/vars';
+@import '../../styles/mixins';
+
+.header {
+  position: sticky;
+  z-index: 9;
+  top: 0;
+
+  width: 100%;
+
+  background-color: $mainBgnColor;
+  box-shadow: $boxShadow;
+}
+
+.button {
+  margin-left: auto;
+}
