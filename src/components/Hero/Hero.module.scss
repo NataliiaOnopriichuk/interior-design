@@ -2,26 +2,22 @@
 @import '../../styles/mixins';
 
 .hero {
-  background-image: url(../../assets/svg/bgnHero.svg);
+  background-image: url(../../assets/images/hero/hero@1x.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 
   max-width: 1920px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
-    margin-bottom: 120px;
+    margin-bottom: 40px;
   }
 
   @media screen and (min-width: $tablet) {
-    margin-bottom: 180px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    margin-bottom: 241px;
+    margin-bottom: 50px;
   }
 }
 
@@ -35,21 +31,18 @@
   gap: 20px;
 
   padding-top: 50px;
+  padding-bottom: 250px;
 
   @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
     align-items: flex-start;
     padding-top: 120px;
-    padding-bottom: 123px;
+    padding-bottom: 350px;
   }
 
   @media screen and (min-width: $tablet) {
     align-items: flex-start;
     padding-top: 142px;
-    padding-bottom: 213px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    padding-bottom: 232px;
+    padding-bottom: 474px;
   }
 }
 
@@ -89,28 +82,5 @@
 
   @media screen and (min-width: $desktop) {
     font-size: 24px;
-  }
-}
-
-.img {
-  height: 300px;
-
-  @media screen and (max-width: $to-tablet2) {
-    margin-top: 20px;
-  }
-
-  @media screen and (min-width: $tablet2) {
-    position: absolute;
-    top: 49px;
-    right: 0px;
-    height: 430px;
-  }
-
-  @media screen and (min-width: $tablet) {
-    height: 550px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    height: 646px;
   }
 }

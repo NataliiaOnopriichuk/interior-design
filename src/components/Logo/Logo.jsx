@@ -3,8 +3,7 @@ import { Link } from 'react-scroll';
 import clsx from 'clsx';
 import { Container } from 'components/Container/Container';
 import style from './Logo.module.scss';
-import logo from '../../assets/logo/logo.png';
-import logo2x from '../../assets/logo/logo@2x.png';
+import logo from '../../assets/logo/logo.svg';
 import { navList } from 'utils/navList';
 
 export const Logo = ({ children, type, active }) => {
@@ -29,7 +28,7 @@ export const Logo = ({ children, type, active }) => {
           offset={-130}
           onClick={() => active(navList[0])}
         >
-          <img src={logo} srcSet={`${logo} 1x, ${logo2x} 2x`} alt="logo" />
+          <img src={logo} alt="logo" />
         </Link>
         {children}
       </div>

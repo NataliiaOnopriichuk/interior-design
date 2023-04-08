@@ -2,8 +2,7 @@ import { Section } from 'components/Section/Section';
 import style from './Location.module.scss';
 import map from '../../assets/images/jpeg/map.jpg';
 import map2x from '../../assets/images/jpeg/map@2x.jpg';
-import logo from '../../assets/images/png/burger.png';
-import logo2x from '../../assets/images/png/burger@2x.png';
+import logo from '../../assets/logo/logo.svg';
 
 export const Location = () => {
   return (
@@ -24,11 +23,7 @@ export const Location = () => {
               alt="map"
             />
             <div className={style.map}>
-              <img
-                src={logo}
-                srcSet={`${logo} 1x, ${logo2x} 2x`}
-                alt="burger"
-              />
+              <img src={logo} alt="logo" />
             </div>
           </div>
         </div>

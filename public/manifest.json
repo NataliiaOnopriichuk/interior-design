@@ -1,16 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Your Interior",
+  "name": "Interior",
   "icons": [
     {
-      "src": "burger.png",
-      "type": "image/png",
-      "sizes": "36x36 24x24 16x16"
-    },
-    {
-      "src": "burger2x.png",
-      "type": "image/png",
-      "sizes": "72x72"
+      "src": "logo.svg",
+      "type": "image/svg",
+      "sizes": "72x72 36x36 24x24 16x16"
     }
   ],
   "start_url": ".",

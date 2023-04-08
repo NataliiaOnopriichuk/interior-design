@@ -2,19 +2,20 @@
 @import '../../styles/mixins';
 
 .section {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   text-align: center;
 
   @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
   }
 
   @media screen and (min-width: $tablet) {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
-  @media screen and (min-width: $desktop) {
-    padding-bottom: 150px;
-  }
+}
+
+.section:nth-child(odd) {
+  background-color: $secondaryBgnColor;
 }
 
 .title {

@@ -9,9 +9,9 @@ export const App = () => {
   return (
     <Layout>
       <Hero />
-      <Ingredients />
       <Story />
       <Burgers />
+      <Ingredients />
       <Location />
     </Layout>
   );

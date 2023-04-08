@@ -13,6 +13,7 @@
   color: inherit;
   border: none;
   border-radius: 5px;
+  outline: none;
 
   transition: $animation;
 
@@ -28,15 +29,7 @@
   &:hover,
   &:focus {
     background-color: $hoverBtnColor;
-  }
-}
-
-.buttonHero {
-  background-color: $secondaryBtnColor;
-  padding: 8px 26px;
-
-  &:hover,
-  &:focus {
-    background-color: $hoverSecondaryBtnColor;
+    color: $secondaryTextColor;
+    // box-shadow: $boxShadow;
   }
 }
