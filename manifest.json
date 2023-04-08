@@ -1,0 +1,13 @@
+{
+  "short_name": "Your Interior",
+  "name": "Interior",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "type": "image/svg",
+      "sizes": "72x72 36x36 24x24 16x16"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}
