@@ -7,80 +7,54 @@
   background-size: cover;
   background-repeat: no-repeat;
 
-  max-width: 1920px;
-  margin-bottom: 30px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-
-  @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
-    margin-bottom: 40px;
-  }
-
-  @media screen and (min-width: $tablet) {
-    margin-bottom: 50px;
-  }
 }
 
-.content {
+.wrapper {
   position: relative;
-
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  gap: 20px;
-
-  padding-top: 50px;
-  padding-bottom: 250px;
-
-  @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
-    align-items: flex-start;
-    padding-top: 120px;
-    padding-bottom: 350px;
-  }
-
-  @media screen and (min-width: $tablet) {
-    align-items: flex-start;
-    padding-top: 142px;
-    padding-bottom: 474px;
-  }
 }
 
 .title {
-  font-size: 35px;
-  font-weight: 900;
+  position: absolute;
+  top: 131px;
+  left: 22px;
 
-  @media screen and (min-width: 350px) {
-    font-size: 40px;
-  }
+  width: 88%;
 
-  @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
-    font-size: 48px;
+  font-size: 50px;
+  font-weight: 800;
+
+  @media screen and (min-width: $tablet2) {
+    top: 198px;
+    width: 68%;
+    font-size: 60px;
   }
 
   @media screen and (min-width: $tablet) {
-    font-size: 64px;
-  }
-
-  @media screen and (min-width: $desktop) {
-    font-size: 84px;
+    top: 222px;
+    width: 73%;
+    font-size: 85px;
   }
 }
 
-.subtitle {
-  @include font($fontSize: 18px);
-  width: 200px;
+.img {
+  padding-top: 110px;
+  padding-bottom: 210px;
 
-  @media screen and (min-width: $tablet2) and (max-width: $to-tablet) {
-    font-size: 22px;
-    width: 303px;
+  @media screen and (min-width: $tablet2) {
+    width: 530px;
+    padding-top: 180px;
+    padding-bottom: 350px;
   }
-
   @media screen and (min-width: $tablet) {
-    width: 100%;
+    width: 730px;
+    padding-top: 190px;
+    padding-bottom: 420px;
   }
+}
 
-  @media screen and (min-width: $desktop) {
-    font-size: 24px;
-  }
+.span {
+  color: $hoverBtnColor;
 }

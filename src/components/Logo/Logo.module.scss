@@ -21,15 +21,6 @@
   }
 }
 
-.link {
-  @media screen and (max-width: $to-tablet2) {
-    width: 140px;
-  }
-  @media screen and (min-width: $tablet2) {
-    width: 150px;
-  }
-}
-
 .padding {
   padding-top: 20px;
 }

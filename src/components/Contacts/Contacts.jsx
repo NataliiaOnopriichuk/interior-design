@@ -1,12 +1,12 @@
 import { Section } from 'components/Section/Section';
-import style from './Story.module.scss';
+import style from './Contacts.module.scss';
 import burger from '../../assets/images/jpeg/burger-on-board.jpg';
 import burger2x from '../../assets/images/jpeg/burger-on-board@2x.jpg';
 
-export const Story = () => {
+export const Contacts = () => {
   return (
     <>
-      <Section id="Who We Are?">
+      <Section id="Contacts">
         <div className={style.wrapper}>
           <div className={style.inner}>
             <h2 className={style.title}>The story</h2>

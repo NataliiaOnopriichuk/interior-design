@@ -47,7 +47,6 @@ export const Burgers = memo(() => {
             </div>
           ))}
         </div>
-        <Button title="Order Now" type="order" />
       </Section>
     </>
   );

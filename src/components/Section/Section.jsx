@@ -2,13 +2,10 @@ import PropTypes from 'prop-types';
 import { Container } from 'components/Container/Container';
 import style from './Section.module.scss';
 
-export const Section = ({ children, title, id }) => {
+export const Section = ({ children, id }) => {
   return (
     <section className={style.section} id={id}>
-      <Container>
-        <h2 className={style.title}>{title}</h2>
-        {children}
-      </Container>
+      <Container>{children}</Container>
     </section>
   );
 };

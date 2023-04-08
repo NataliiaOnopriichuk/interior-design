@@ -29,7 +29,7 @@ export const Header = () => {
           <>
             <SiteNav activeLink={activeLink} close={handleLinkClick} />
             <div className={style.button}>
-              <Button title="Order Now" type="order" />
+              <Button />
             </div>
           </>
         )}

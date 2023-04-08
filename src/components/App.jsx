@@ -1,8 +1,8 @@
 import { Burgers } from './Burgers/Burgers';
+import { Contacts } from './Contacts/Contacts';
 import { Hero } from './Hero/Hero';
-import { Ingredients } from './Ingredients/Ingredients';
+import { Reviews } from './Reviews/Reviews';
 import { Layout } from './Layout/Layout';
-import { Location } from './Location/Location';
 import { Story } from './Story/Story';
 
 export const App = () => {
@@ -11,8 +11,8 @@ export const App = () => {
       <Hero />
       <Story />
       <Burgers />
-      <Ingredients />
-      <Location />
+      <Contacts />
+      <Reviews />
     </Layout>
   );
 };
