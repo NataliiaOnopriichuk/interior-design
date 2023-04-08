@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/interior-design/static/css/main.3685234e.css",
-    "main.js": "/interior-design/static/js/main.7bf4dc2d.js",
-    "static/media/map@2x.jpg": "/interior-design/static/media/map@2x.0673893e80c2c6a2acb0.jpg",
+    "main.css": "/interior-design/static/css/main.31ff5b6f.css",
+    "main.js": "/interior-design/static/js/main.bc5a3347.js",
+    "static/media/Inter-ExtraBold.ttf": "/interior-design/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
+    "static/media/Inter-Bold.ttf": "/interior-design/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Regular.ttf": "/interior-design/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/burger@2x.png": "/interior-design/static/media/burger@2x.4f7d44a81a1d04f16d6f.png",
-    "static/media/Poppins-Regular.ttf": "/interior-design/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/Poppins-Bold.ttf": "/interior-design/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
-    "static/media/Poppins-Black.ttf": "/interior-design/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
     "static/media/burger-on-board@2x.jpg": "/interior-design/static/media/burger-on-board@2x.fa0d317e0de164a72360.jpg",
-    "static/media/map.jpg": "/interior-design/static/media/map.c59744e645f79adf5afd.jpg",
     "static/media/burger-bun@2x.png": "/interior-design/static/media/burger-bun@2x.150bf42e237242db68f2.png",
     "static/media/hero@1x.jpg": "/interior-design/static/media/hero@1x.59e9e4d6619c52e50ce5.jpg",
     "static/media/tomato@2x.png": "/interior-design/static/media/tomato@2x.fa69e81ab23708a4e82a.png",
@@ -28,11 +26,12 @@
     "static/media/slick.ttf": "/interior-design/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/interior-design/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/interior-design/index.html",
-    "main.3685234e.css.map": "/interior-design/static/css/main.3685234e.css.map",
-    "main.7bf4dc2d.js.map": "/interior-design/static/js/main.7bf4dc2d.js.map"
+    "static/media/bgn_title.svg": "/interior-design/static/media/bgn_title.b1eb2107d1faf3ca0d169b805499bea6.svg",
+    "main.31ff5b6f.css.map": "/interior-design/static/css/main.31ff5b6f.css.map",
+    "main.bc5a3347.js.map": "/interior-design/static/js/main.bc5a3347.js.map"
   },
   "entrypoints": [
-    "static/css/main.3685234e.css",
-    "static/js/main.7bf4dc2d.js"
+    "static/css/main.31ff5b6f.css",
+    "static/js/main.bc5a3347.js"
   ]
 }
