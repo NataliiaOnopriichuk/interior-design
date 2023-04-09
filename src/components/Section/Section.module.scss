@@ -14,6 +14,10 @@
   }
 }
 
+.rating {
+  padding: 0;
+}
+
 .section:nth-child(odd) {
   background-color: $secondaryBgnColor;
 }

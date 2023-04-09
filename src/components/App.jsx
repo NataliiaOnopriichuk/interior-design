@@ -1,4 +1,4 @@
-import { Burgers } from './Burgers/Burgers';
+import { Rating } from './Rating/Rating';
 import { Contacts } from './Contacts/Contacts';
 import { Hero } from './Hero/Hero';
 import { Reviews } from './Reviews/Reviews';
@@ -10,7 +10,7 @@ export const App = () => {
     <Layout>
       <Hero />
       <Story />
-      <Burgers />
+      <Rating />
       <Contacts />
       <Reviews />
     </Layout>

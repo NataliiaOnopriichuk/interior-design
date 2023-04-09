@@ -1,10 +1,16 @@
+import clsx from 'clsx';
 import PropTypes from 'prop-types';
 import { Container } from 'components/Container/Container';
 import style from './Section.module.scss';
 
-export const Section = ({ children, id }) => {
+export const Section = ({ children, id, type }) => {
+  const sectionClass = clsx({
+    [style.section]: true,
+    [style.rating]: type === 'rating',
+  });
+
   return (
-    <section className={style.section} id={id}>
+    <section className={sectionClass} id={id}>
       <Container>{children}</Container>
     </section>
   );
@@ -12,6 +18,6 @@ export const Section = ({ children, id }) => {
 
 Section.propTypes = {
   children: PropTypes.node.isRequired,
-  title: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
+  id: PropTypes.string,
+  type: PropTypes.string,
 };

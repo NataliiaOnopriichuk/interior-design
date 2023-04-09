@@ -1,7 +1,7 @@
 import { Section } from 'components/Section/Section';
 import style from './Story.module.scss';
-import burger from '../../assets/images/jpeg/burger-on-board.jpg';
-import burger2x from '../../assets/images/jpeg/burger-on-board@2x.jpg';
+import interior from '../../assets/images/jpeg/interior-with-chair@1x.jpg';
+import interior2x from '../../assets/images/jpeg/interior-with-chair@2x.jpg';
 
 export const Story = () => {
   return (
@@ -9,28 +9,24 @@ export const Story = () => {
       <Section id="Who We Are?">
         <div className={style.wrapper}>
           <div className={style.inner}>
-            <h2 className={style.title}>The story</h2>
-            <p className={style.subtitle}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-              mollis id arcu vel maximus.
-            </p>
+            <h2 className={style.title}>Who We Are?</h2>
             <p className={style.content}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-              eget consequat lorem. Ut nec placerat purus. Fusce vitae faucibus
-              augue, non commodo elit. Integer risus orci, ultricies ac dapibus
-              sed, dignissim interdum quam. Proin quis dignissim diam. Donec id
-              magna placerat, fringilla odio et, efficitur lacus. Vivamus eu
-              ultricies erat, eu lobortis nunc. Sed nec dignissim libero.
-              Integer cursus leo nunc. Nulla mattis interdum nunc, sed semper
-              turpis. Cras elit lorem, mollis ut feugiat ac, ultricies eu dolor.
+              At <span className={style.span}>CHID</span>, we are passionate
+              about creating beautiful and functional spaces that reflect our
+              clients' unique styles and needs. Our team of experienced
+              designers works closely with each client to bring their vision to
+              life, whether it's a cozy bedroom, a modern office space, or a
+              stylish restaurant. We believe that great design is not just about
+              aesthetics, but also about improving the quality of life for those
+              who inhabit the space.
             </p>
           </div>
           <div className={style.thumb}>
             <img
               className={style.image}
-              src={burger}
-              srcSet={`${burger} 1x, ${burger2x} 2x`}
-              alt="burger"
+              src={interior}
+              srcSet={`${interior} 1x, ${interior2x} 2x`}
+              alt="interior"
             />
           </div>
         </div>
