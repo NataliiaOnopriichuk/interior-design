@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/interior-design/static/css/main.31ff5b6f.css",
-    "main.js": "/interior-design/static/js/main.bc5a3347.js",
+    "main.css": "/interior-design/static/css/main.099cce1f.css",
+    "main.js": "/interior-design/static/js/main.39187718.js",
     "static/media/Inter-ExtraBold.ttf": "/interior-design/static/media/Inter-ExtraBold.e4a4cb7133001f282a15.ttf",
     "static/media/Inter-Bold.ttf": "/interior-design/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
     "static/media/Inter-Regular.ttf": "/interior-design/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/burger@2x.png": "/interior-design/static/media/burger@2x.4f7d44a81a1d04f16d6f.png",
+    "static/media/hero@2x.jpg": "/interior-design/static/media/hero@2x.144cc058782270fac02c.jpg",
     "static/media/burger-on-board@2x.jpg": "/interior-design/static/media/burger-on-board@2x.fa0d317e0de164a72360.jpg",
+    "static/media/interior-with-chair@2x.jpg": "/interior-design/static/media/interior-with-chair@2x.98815bf137d104f9e85d.jpg",
     "static/media/burger-bun@2x.png": "/interior-design/static/media/burger-bun@2x.150bf42e237242db68f2.png",
     "static/media/hero@1x.jpg": "/interior-design/static/media/hero@1x.59e9e4d6619c52e50ce5.jpg",
     "static/media/tomato@2x.png": "/interior-design/static/media/tomato@2x.fa69e81ab23708a4e82a.png",
     "static/media/cheese@2x.png": "/interior-design/static/media/cheese@2x.f63fcfa2b016de0ff58c.png",
     "static/media/salad@2x.png": "/interior-design/static/media/salad@2x.6fe92573d03d018f8013.png",
     "static/media/meat@2x.png": "/interior-design/static/media/meat@2x.053211b6d65091ebcb70.png",
-    "static/media/burger.png": "/interior-design/static/media/burger.987fd5bafa2a94026699.png",
     "static/media/burger-bun.png": "/interior-design/static/media/burger-bun.f3b9dfa91d285cf70322.png",
+    "static/media/interior-with-chair@1x.jpg": "/interior-design/static/media/interior-with-chair@1x.a7c8b608804da61c2860.jpg",
     "static/media/burger-on-board.jpg": "/interior-design/static/media/burger-on-board.e684ca169dfd24458304.jpg",
+    "static/media/interior-with-redsofa@2x.jpg": "/interior-design/static/media/interior-with-redsofa@2x.4a6a988bb366182f7750.jpg",
     "static/media/tomato.png": "/interior-design/static/media/tomato.7dccf39214626203bd88.png",
     "static/media/salad.png": "/interior-design/static/media/salad.a8bae3bd3c11b4e34a70.png",
     "static/media/cheese.png": "/interior-design/static/media/cheese.8e7be0089b32275207db.png",
     "static/media/meat.png": "/interior-design/static/media/meat.13b6eb0a463a1919c114.png",
+    "static/media/interior-with-redsofa@1x.jpg": "/interior-design/static/media/interior-with-redsofa@1x.a808cd5790677808b39a.jpg",
     "static/media/logo.svg": "/interior-design/static/media/logo.3d96867bf9a920a1930d6d56a38b121d.svg",
     "static/media/slick.svg": "/interior-design/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/interior-design/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -27,11 +30,11 @@
     "static/media/slick.woff": "/interior-design/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/interior-design/index.html",
     "static/media/bgn_title.svg": "/interior-design/static/media/bgn_title.b1eb2107d1faf3ca0d169b805499bea6.svg",
-    "main.31ff5b6f.css.map": "/interior-design/static/css/main.31ff5b6f.css.map",
-    "main.bc5a3347.js.map": "/interior-design/static/js/main.bc5a3347.js.map"
+    "main.099cce1f.css.map": "/interior-design/static/css/main.099cce1f.css.map",
+    "main.39187718.js.map": "/interior-design/static/js/main.39187718.js.map"
   },
   "entrypoints": [
-    "static/css/main.31ff5b6f.css",
-    "static/js/main.bc5a3347.js"
+    "static/css/main.099cce1f.css",
+    "static/js/main.39187718.js"
   ]
 }
